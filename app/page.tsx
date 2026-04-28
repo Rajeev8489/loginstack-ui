@@ -56,7 +56,7 @@ export default function LoginPage() {
   return (
     <div className="login-container">
       <div className="login-box">
-        <h2>Welcome Back</h2>
+        <h2>Welcome</h2>
 
         {message && (
           <div className={isSuccess ? "success-msg" : "error-msg"}>
