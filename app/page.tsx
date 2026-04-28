@@ -23,7 +23,7 @@ export default function LoginPage() {
     setIsLoading(true);
 
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://localhost:7035/api";
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://619kvrkc1m.execute-api.ap-south-1.amazonaws.com/Prod/api";
       const res = await fetch(`${apiUrl}/auth/login`, {
         method: "POST",
         headers: {
